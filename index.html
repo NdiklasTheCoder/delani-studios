@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="jumbotron">
+    <form action="/subscriber" method="POST">
+        <input type="email" name="email" id="email" placeholder="your email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        <p id="error" class="error">Please enter an email</p>
+        <input type="submit" value="Notify Me" class="button" id="cta">
+    </form>
+    </div>
+</body>
+</html>
