@@ -1,9 +1,0 @@
-Upgrading npm in powershell
-
-Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
-npm install -g npm-windows-upgrade
-npm-windows-upgrade
-
-npm init -y
-npm i body-parser express request
-npm i nodemon -D
