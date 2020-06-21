@@ -1,3 +1,18 @@
 .layout-social {
     font-size: 2em;
 }
+
+.header{
+    background-image: url("../images/background-img/h_img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headertxt h1{
+    color: white;
+    padding-top: 45px;
+  }
+  .headertxt p{
+    color: white;
+    font-size: 10px;
+  }
