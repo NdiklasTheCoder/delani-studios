@@ -16,3 +16,14 @@
     color: white;
     font-size: 10px;
   }
+
+
+#designtxt{
+  display: none;
+}
+#developtxt{
+  display: none;
+}
+#producttxt{
+  display: none;
+}

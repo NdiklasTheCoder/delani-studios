@@ -1,27 +1,43 @@
-let cta = document.getElementById('cta');
-let email = document.getElementById('email').value;
-let error = document.getElementById('error');
-let success = document.getElementById('success');
-let signup = document.getElementById('signup');
+$(function() {
+    var topoffset = 70; //variable for menu height
+  
+    //Use smooth scrolling when clicking on navigation
+    $('.navbar-nav a').click(function() {
+      if (location.pathname.replace(/^\//,'') === 
+        this.pathname.replace(/^\//,'') && 
+        location.hostname === this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top-topoffset
+          }, 500);
+          return false;
+        } //target.length
+      } //click function
+    }); //smooth scrolling
+  
+  });
 
-cta.addEventListener('click', (event) => {
-    event.preventDefault();
-    if (this.email.value == null || this.email.value == "") {
-        error.classList.add('errorAnim');
-    } else {
-        let fetchData = {
-            method: 'POST',
-            body: JSON.stringify({email: this.email.value, js: true}),
-            headers: {"Content-Type": "application/json"}
-        }
-         
-        fetch('/subscribe', fetchData)
-            .then(res => {
-                if(res.ok) {
-                    // yay
-                } else {
-                    error.style.display = 'block';
-                }
-            })
-    }
-})
+
+  $(document).ready(function()
+{
+  $("#design").click(function()
+  {
+    $("#designtxt").toggle()
+    $("#designimg").toggle()
+  })
+
+  $("#development").click(function(){
+    $("#developtxt").toggle()
+    $("#developimg").toggle()
+  })
+
+  $("#product").click(function(){
+    $("#producttxt").toggle()
+    $("#productimg").toggle()
+  })
+
+  $('[data-toggle="tooltip"]').tooltip();
+
+  });
