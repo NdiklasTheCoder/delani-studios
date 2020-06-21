@@ -4,9 +4,16 @@
 
 .header{
     background-image: url("../images/background-img/h_img.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
+
+.service{
+    background-image: url("../images/background-img/s_image.jpg");
+    background-size: cover; 
+    height: 300px;
+    background-repeat: no-repeat;
+  }
 
 .headertxt h1{
     color: white;
@@ -16,7 +23,15 @@
     color: white;
     font-size: 10px;
   }
+  .service h2{
+    color: white;
+    padding-top: 80px;
+  }
 
+  .service p{
+    color: white;
+    font-size: 12px;
+  }
 
 #designtxt{
   display: none;
