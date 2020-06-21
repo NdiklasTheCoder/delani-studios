@@ -1,4 +1,4 @@
-$(function() {
+/* $(function() {
     var topoffset = 70; //variable for menu height
   
     //Use smooth scrolling when clicking on navigation
@@ -17,13 +17,12 @@ $(function() {
       } //click function
     }); //smooth scrolling
   
-  });
+  }); */
 
 
-  $(document).ready(function()
-{
-  $("#design").click(function()
-  {
+  $(document).ready(function() {
+
+  $("#design").click(function() {
     $("#designtxt").toggle()
     $("#designimg").toggle()
   })
