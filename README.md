@@ -17,7 +17,7 @@ Text Editor, IDE , JSFiddle or JavaScript Console
 
 ### gh-pages
 
-https://ndiklasthecoder.github.io/project-akan-calculator/
+https://ndiklasthecoder.github.io/delani-studios/
 
 
 ##### Setup Instructions and Installation
