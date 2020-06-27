@@ -3,15 +3,13 @@
 ##This repository contains structure for delani-studios project
 
 
-![alt text](https://github.com/NdiklasTheCoder/project-akan-calculator/blob/master/Delani-Studio.jpg?raw=true)
+![alt text](https://github.com/NdiklasTheCoder/delani-studios/blob/master/Delani-Studio.jpg?raw=true)
 
 ## Tools used in the process
 
 - HTML & CSS (Bootstrap)
 - Bootstrap
-- FontAwesome Icons
-- JavaScript (jQuery 3.4.1)
-- Animate CSS
+- JavaScript (jQuery 3.5.1)
 
 ##### Working Area
 
@@ -24,7 +22,7 @@ https://ndiklasthecoder.github.io/project-akan-calculator/
 
 ##### Setup Instructions and Installation
 
-- Click on link/url given above under gh-pages "https://ndiklasthecoder.github.io/project-akan-calculator"
+- Studio hosted under gh-pages "https://ndiklasthecoder.github.io/delani-studios"
 - Fill in details requested for date of birth and gender.
 - Click on Submit
 
@@ -45,9 +43,7 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ## Known Bugs
 
-Website might take slightly longer to load
-
-If you experience any other issue, kindly notify us by reaching us on info@ecogreensolutions.co.ke
+If you experience any other issue, kindly notify us under the contact section
 
 ### License
 
