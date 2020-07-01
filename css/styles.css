@@ -1,5 +1,16 @@
+
+
+:root{
+  --font-family-sans-serif : 'Source Sans Pro';
+  --font-family-serif : Merriweather, serif;
+}
+
 .layout-social {
     font-size: 2em;
+}
+
+#about {
+  font-family: 'Source sans pro';
 }
 
 header{
@@ -14,6 +25,11 @@ header{
     background-size: cover; 
     height: 300px;
     background-repeat: no-repeat;
+    font-family: 'Source sans pro';
+  }
+
+  #portfolio {
+    padding: 2rem;
   }
 
   #contact{
@@ -41,6 +57,8 @@ header{
   .service p{
     color: white;
     font-size: 12px;
+
+
   }
 
 #designtxt{
