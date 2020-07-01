@@ -22,21 +22,43 @@
 
   $(document).ready(function() {
 
-  $("#design").click(function() {
-    $("#designtxt").toggle()
-    $("#designimg").toggle()
-  })
+    $("#design").click(function() {
+      $("#designtxt").toggle()
+      $("#designimg").toggle()
+    })
+  
+    $("#development").click(function() {
+      $("#developtxt").toggle()
+      $("#developimg").toggle()
+    })
+  
+    $("#product").click(function() {
+      $("#producttxt").toggle()
+      $("#productimg").toggle()
+    })
+  
+    // $('[data-toggle="tooltip"]').tooltip();
 
-  $("#development").click(function(){
-    $("#developtxt").toggle()
-    $("#developimg").toggle()
-  })
 
-  $("#product").click(function(){
-    $("#producttxt").toggle()
-    $("#productimg").toggle()
-  })
+    $(".heffect").each(function() {
+      console.log("heffect");
+      $(this).hover(function() {
+        console.log("hover");
+        $(this).find("img.imgeffect").animate({
+          height: "toggle"
+        });
+        $(this).find("p.texteffect").removeClass("text-hide");
 
-  $('[data-toggle="tooltip"]').tooltip();
 
+      } );
+      $(this).mouseleave(function(){
+        console.log("mouseLeave");
+        $(this).find("p.texteffect").addClass("text-hide");
+      });
+    });
+  
   });
+  
+
+
+  

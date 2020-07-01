@@ -28,9 +28,7 @@ header{
     font-family: 'Source sans pro';
   }
 
-  #portfolio {
-    padding: 2rem;
-  }
+ 
 
   #contact{
     background-image: url("../images/background-img/c_image.jpg");
@@ -95,3 +93,10 @@ button:hover {
 }
 
 
+#contact textarea{
+  width: 100%;
+}
+
+#portfolio img{
+  width: 100%;
+}
