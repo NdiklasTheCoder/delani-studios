@@ -52,7 +52,7 @@
 
       } );
       $(this).mouseleave(function(){
-        console.log("mouseLeave");
+        console.log("mouseleave");
         $(this).find("p.texteffect").addClass("text-hide");
       });
     });
